@@ -18,8 +18,8 @@ agitating the scanty flame of the lamps that struggled against the darkness.
 total = 0
 vowels = {'a': 0, 'e': 0, 'i': 0, 'o': 0, 'u': 0}
 
-for C in text:
-    c = C.lower()
+for c in text:
+    c = c.lower()
 
     if c in vowels:
         vowels[c] += 1
